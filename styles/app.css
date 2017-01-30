@@ -1,10 +1,51 @@
+body{
+  background: url('/assets/images/background.jpg');
+  font-family: "Lato";
+}
+
 h1{
-  color: black;
+  font-size: 5rem;
+  font-weight: 300; 
 }
 
 #content{
   text-align: center;
+  padding-top: 25%;
 }
 
+.navbar {
+  margin: 0 auto;
+  width: 95%; 
+  background-color: transparent;
+  border-bottom-color: white;
+  border-bottom-width: 1.75px;
+  border-radius: 0;
+}
+.navbar-default .navbar-brand {
+  font-family: 'Georgia';
+  color: white;
+  font-size: 3.0rem;
+  font-weight: 300  ;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+
+
+
+body{
+    background-image: url('/assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; /*cover entire page*/
+    color: white;
+    min-height:100%;  /*says the height of the body must be, at minimum, 100% of the window*/  /*what does this mean when we resize the window?*/ 
+    padding-bottom: 200px;
+}
 
 
